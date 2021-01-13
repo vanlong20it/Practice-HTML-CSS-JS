@@ -1,0 +1,27 @@
+.jumbotron {
+    background-color: #063b7a;
+    border-radius: unset;
+}
+.jumbotron h1 {
+    color: #fff;
+    font-weight: 400;
+}
+.jumbotron p {
+    color: #aaa;
+    font-weight: 400;
+}
+.about-us .find-us ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    padding-bottom:20px;
+}
+.about-us .find-us li span{
+    border-bottom:dotted 2px;
+}
+footer p{
+    padding:35px 0px;
+    color:#fff;
+    font-size:14px;
+    font-weight:500;
+}

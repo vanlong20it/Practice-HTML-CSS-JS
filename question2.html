@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/question1.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">FIT-TDC</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Question 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Question 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Question 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="main-content py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="input-box">
+                        <h3>Your measurements</h3>
+                        <p class="text-danger" id="error"></p>
+                        <div class="input-data">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <label for="width">Width: 0 < width < 800px</label>
+                                    <input class="form-control" type="number" name="width" id="width"
+                                                placeholder="Enter the width..." autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <label for="height">Height: 0 < height < 1000px</label>
+                                    <input class="form-control" type="number" name="height" id="height"
+                                                placeholder="Enter the height..." autocomplete="off">
+                                </div>
+                                <div class="form-group my-0">
+                                    <input type="radio" name="type" id="box">
+                                    <label for="box">Box</label>
+                                </div>
+                                <div class="form-group my-0">
+                                    <input type="radio" name="type" id="circle">
+                                    <label for="circle">Circle</label>    
+                                </div>
+                                <button class="btn btn-primary" type="submit" id="submit">Draw me</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="result" id="result">
+                        <h3>Your result</h3>
+                        <div id="shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="bg-dark">
+        <div class="container">
+            <p class="my-auto text-center">Copyright &copy; FIT-TDC 2020</p>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="js/question2.js"></script>
+</body>
+
+</html>

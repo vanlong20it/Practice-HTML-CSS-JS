@@ -1,0 +1,18 @@
+#result{
+    display:flex;
+}
+.bar{
+    margin-right:20px;
+    width:65px;
+    border-radius:10px;
+    background-color:#FDC117;
+    text-align:center;
+    position:relative;
+}
+.bar .number{
+    position:absolute;
+    left:50%;
+    top:15px;
+    font-weight:400;
+    transform: translateX(-50%);
+}
